@@ -1,0 +1,19 @@
+
+  __    _   ___  
+ / /\  | | | |_) 
+/_/--\ |_| |_| \_ v1.52.3, built with Go go1.22.12
+
+mkdir /workspaces/bepra/myapp/tmp
+watching .
+watching controller
+watching dataStore
+watching dataStore/postgres
+watching model
+watching routes
+!exclude tmp
+watching utils
+watching utils/httpResp
+building...
+running...
+2026/05/14 04:07:28 Database successfully connected
+2026/05/14 04:07:28 Server starting on :8080

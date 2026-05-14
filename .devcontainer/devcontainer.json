@@ -1,0 +1,14 @@
+{
+  "name": "bepra",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspaces/bepra",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "golang.go"
+      ]
+    }
+  },
+  "postCreateCommand": "cd /workspaces/bepra/myapp && go mod tidy && go install github.com/air-verse/air@latest"
+}
